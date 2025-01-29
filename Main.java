@@ -11,14 +11,14 @@ public class Main
        Cities test = new Cities(cityNames, cityPop );
        System.out.println(test);
 
-//      test.insertCity("Trincomalee", 108420);
-//      System.out.println(test);
+      test.insertCity("Trincomalee", 108420);
+      System.out.println(test);
 
-//       test.deleteCity("Galls");
-//       test.deleteCity("Jaffna");
-//       System.out.println(test);
+       test.deleteCity("Galls");
+       test.deleteCity("Jaffna");
+       System.out.println(test);
 
-//       System.out.println(test.visitedCities());
+       System.out.println(test.visitedCities());
 
    }
 }
